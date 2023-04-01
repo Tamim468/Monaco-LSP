@@ -1,0 +1,5 @@
+{
+    "languageMode": "nocheck",
+	"lint": { "LocalUnused": false, "LocalShadow": false, "ImplicitReturn": false, "UnknownGlobal": false, "ComparisonPrecedence": false, "SameLineStatement": false, "GlobalUsedAsLocal": false, "BuiltinGlobalWrite": false, "DuplicateFunction": false, "MisleadingAndOr": false, "DuplicateCondition": false },
+    "typeErrors": false
+}
