@@ -3,3 +3,7 @@
 
 THANKS TO https://github.com/arnoson/monaco-lua-example! TYSM!
 Only what's different is that there's even a epic new language server which is related to roblox along with intelisense and formatting (stylua)!
+
+# Instructions
+
+https://youtu.be/8qQJucQwTCY there you go
