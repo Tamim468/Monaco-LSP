@@ -6,4 +6,4 @@ Only what's different is that there's even a epic new language server which is r
 
 # Instructions
 
-https://youtu.be/8qQJucQwTCY there you go
+Link: https://www.youtube.com/watch?v=8qQJucQwTCY
