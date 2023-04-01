@@ -15,7 +15,7 @@ export const launch = (socket: rpc.IWebSocket) => {
     )
     const serverConnection = server.createServerProcess(
         'LuaU',
-        resolve(process.cwd(), './luau-lsp.exe'), ["lsp", "--docs=./en-us.json", "--definitions=./globalTypes.d.lua", "--base-luaurc=C:/Users/TAMIM/Downloads/luau/server/wow.luaurc"]
+        resolve(process.cwd(), './luau-lsp.exe'), ["lsp", "--docs=./en-us.json", "--definitions=./globalTypes.d.lua", "--base-luaurc=./.luaurc"]
     )
     server.forward(socketConnection, serverConnection, (message) => {
         if (rpc.isRequestMessage(message) && isInitializeRequest(message)) {
