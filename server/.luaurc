@@ -1,6 +1,5 @@
 {
-    "lint": {
-        "LocalUnused": false
-    },
+    "languageMode": "nocheck",
+	"lint": { "LocalUnused": false, "LocalShadow": false, "ImplicitReturn": false, "UnknownGlobal": false },
     "typeErrors": false
 }
