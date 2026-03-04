@@ -1,3 +1,4 @@
+# UPDATE:
 This fork has some minor fixes that include:
 
 - Add missing devDependancy `ts-node`
@@ -5,7 +6,7 @@ This fork has some minor fixes that include:
 
 Make sure you change to using the correct binary for your platform in [`/server/src/launch.ts`](/server/src/launch.ts)
 
-# Monaco-LSP
+# Monaco Luau LSP
 
 Featuring a monaco editor with language client (https://github.com/TypeFox/monaco-languageclient) which connects the editor to luau language server from johnnymorganz!
 
