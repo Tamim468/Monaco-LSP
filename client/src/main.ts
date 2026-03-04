@@ -35,8 +35,6 @@ declare global {
     }
 }
 
-const editor = window.editor
-
 window.editor = monaco.editor.create(
     document.querySelector('#editor-container')!,
     {
@@ -67,4 +65,4 @@ window.onresize = function () {
     window.editor.layout();
 }
 
-editor.getAction('editor.action.formatDocument').run()
+window.editor.getAction('editor.action.formatDocument').run()
